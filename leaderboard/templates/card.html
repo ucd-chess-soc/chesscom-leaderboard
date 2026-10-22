@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display+SC:wght@400;700&display=block" rel="stylesheet">
+<style>
+  :root {
+    --bg: #071226;
+    --bg-lift: #0c1c3a;
+    --line: rgba(220, 230, 255, 0.10);
+    --text: #f3f5fa;
+    --muted: #8a9bbd;
+    --accent: #5fa2ff;
+    --down: #e39a9a;
+    --serif: "Playfair Display SC", Georgia, serif;
+    --sans: "Inter", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-variant-numeric: tabular-nums;
+    position: relative;
+    overflow: hidden;
+  }
+  /* Faint board in the lower corner, echoing the banner. */
+  .board {
+    position: absolute; right: -120px; bottom: -120px;
+    width: 640px; height: 640px;
+    background: repeating-conic-gradient(rgba(140, 170, 230, 0.07) 0 25%, transparent 0 50%) 0 0 / 160px 160px;
+    transform: rotate(-12deg);
+    mask-image: radial-gradient(circle at 70% 70%, #000 30%, transparent 70%);
+  }
+  .frame { position: relative; height: 100%; padding: 72px 80px 64px; display: flex; flex-direction: column; }
+
+  header { display: flex; align-items: center; justify-content: space-between; }
+  .brand { display: flex; align-items: center; gap: 22px; }
+  .brand img { height: 76px; }
+  .brand .rule { width: 1px; height: 64px; background: rgba(140, 170, 230, 0.45); }
+  .brand span { font-family: var(--serif); font-size: 30px; letter-spacing: 0.04em; }
+  .handle { font-size: 26px; color: var(--muted); }
+
+  .title { margin-top: 56px; }
+  h1 { font-family: var(--serif); font-weight: 700; font-size: 88px; line-height: 1; letter-spacing: -0.01em; }
+  .meta { margin-top: 22px; display: flex; align-items: center; gap: 18px; font-size: 28px; color: var(--muted); }
+  .chip { color: var(--text); background: var(--bg-lift); border: 1px solid var(--line); border-radius: 8px; padding: 6px 16px; font-weight: 600; }
+
+  ol { list-style: none; margin-top: 44px; border-top: 1px solid var(--line); }
+  li { display: grid; grid-template-columns: 70px 1fr auto; align-items: center; height: 76px; border-bottom: 1px solid var(--line); }
+  .rank { font-size: 30px; font-weight: 600; color: var(--muted); }
+  li:nth-child(-n+3) .rank { color: var(--accent); }
+  .who { min-width: 0; }
+  .name { font-size: 34px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .sub { font-size: 21px; color: var(--muted); margin-top: 2px; }
+  .value { font-size: 42px; font-weight: 700; text-align: right; padding-left: 24px; }
+  .up { color: var(--accent); }
+  .down { color: var(--down); }
+  .flat { color: var(--muted); }
+  .empty { margin-top: 120px; font-size: 34px; color: var(--muted); text-align: center; }
+
+  footer { margin-top: auto; display: flex; justify-content: space-between; font-size: 24px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="board"></div>
+<div class="frame">
+  <header>
+    <div class="brand"><img src="{{ logo }}" alt=""><div class="rule"></div><span>UCD Chess Society</span></div>
+    <div class="handle">@ucdchess</div>
+  </header>
+
+  <div class="title">
+    <h1>{{ card.title }}</h1>
+    <div class="meta"><span class="chip">{{ card.subtitle }}</span><span>{{ card.when }}</span></div>
+  </div>
+
+  {% if card.rows %}
+  <ol>
+    {% for r in card.rows %}
+    <li>
+      <div class="rank">{{ loop.index }}</div>
+      <div class="who">
+        <div class="name">{{ r.name }}</div>
+        <div class="sub">
+          {%- if r.name != r.username %}{{ r.username }} · {% endif -%}
+          {%- if card.kind == "movers" -%}
+            {%- set p = r.periods[card.period] -%}
+            {{ p.games }} game{{ "" if p.games == 1 else "s" }}{% if r.rating %} · now {{ r.rating }}{% endif %}{% if p.new %} · new player{% endif %}
+          {%- elif "week" in r.periods -%}
+            {{ r.periods.week.delta | signed }} this week
+          {%- endif -%}
+        </div>
+      </div>
+      {% if card.kind == "movers" %}
+        {% set d = r.periods[card.period].delta %}
+        <div class="value {{ 'up' if d > 0 else ('down' if d < 0 else 'flat') }}">{{ d | signed }}</div>
+      {% else %}
+        <div class="value">{{ r.rating }}</div>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ol>
+  {% else %}
+  <p class="empty">No rated games in this period yet.</p>
+  {% endif %}
+
+  <footer>
+    <span>chess.com/club/{{ club }}</span>
+    <span>{{ "Change weighted by games played" if card.board == "combined" else "Rated games on chess.com" }}</span>
+  </footer>
+</div>
+</body>
+</html>

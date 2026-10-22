@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UCD Chess Leaderboard</title>
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #071226;
+    --bg-lift: #0c1c3a;
+    --line: rgba(220, 230, 255, 0.10);
+    --text: #f3f5fa;
+    --muted: #8a9bbd;
+    --accent: #5fa2ff;
+    --down: #e39a9a;
+    --serif: "Playfair Display SC", Georgia, serif;
+    --sans: "Inter", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 var(--sans); }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 14px; }
+  header img { height: 52px; }
+  h1 { font: 700 30px/1.1 var(--serif); margin: 0; }
+  .updated { color: var(--muted); font-size: 14px; margin-top: 4px; }
+
+  .tabs { display: flex; gap: 6px; margin: 32px 0 16px; flex-wrap: wrap; }
+  .tabs button {
+    font: 600 14px var(--sans); color: var(--muted); background: transparent;
+    border: 1px solid var(--line); border-radius: 8px; padding: 8px 14px; cursor: pointer;
+  }
+  .tabs button[aria-selected="true"] { color: var(--text); background: var(--bg-lift); border-color: rgba(220,230,255,.25); }
+  .note { color: var(--muted); font-size: 14px; margin: 0 0 12px; }
+
+  .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { padding: 10px 14px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  th:nth-child(-n+2), td:nth-child(-n+2) { text-align: left; }
+  tr:last-child td { border-bottom: 0; }
+  th { font-size: 13px; color: var(--muted); font-weight: 600; background: var(--bg-lift); }
+  th button { all: unset; cursor: pointer; }
+  th button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  th[aria-sort] button::after { content: " ↓"; }
+  th[aria-sort="ascending"] button::after { content: " ↑"; }
+  td.rank { color: var(--muted); width: 1%; }
+  .player a { color: var(--text); text-decoration: none; font-weight: 600; }
+  .player a:hover { text-decoration: underline; }
+  .player small { color: var(--muted); margin-left: 6px; }
+  .up { color: var(--accent); }
+  .down { color: var(--down); }
+  .flat, .games { color: var(--muted); }
+  .games { font-size: 13px; margin-left: 6px; }
+  sup { color: var(--muted); }
+
+  h2 { font: 700 22px var(--serif); margin: 48px 0 6px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; margin-top: 16px; }
+  .grid a { color: var(--muted); text-decoration: none; font-size: 13px; }
+  .grid img { width: 100%; display: block; border: 1px solid var(--line); border-radius: 8px; margin-bottom: 6px; }
+  footer { margin-top: 48px; color: var(--muted); font-size: 13px; }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="bishop.png" alt="">
+    <div>
+      <h1>UCD Chess Society Leaderboard</h1>
+      <div class="updated">Updated {{ updated }} · rated games on chess.com</div>
+    </div>
+  </header>
+
+  <div class="tabs" role="tablist">
+    {% for b in boards %}
+    <button role="tab" data-board="{{ b.key }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ b.label }}</button>
+    {% endfor %}
+  </div>
+  <p class="note" id="note"></p>
+  <div class="table-wrap"><table id="board"></table></div>
+
+  {% if cards %}
+  <h2>Graphics</h2>
+  <p class="note">Sized for Instagram (1080×1350). Click to open full size.</p>
+  <div class="grid">
+    {% for c in cards %}
+    <a href="graphics/{{ c.file }}" download><img src="graphics/{{ c.file }}" alt="{{ c.title }}, {{ c.subtitle }}" loading="lazy">{{ c.title }} · {{ c.subtitle }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <footer>
+    Ratings from the <a href="https://www.chess.com/club/{{ club }}">club on chess.com</a>.
+    Combined change is each player's change per time control, weighted by games played.
+    <sup>*</sup> New to that time control: counted from their first game.
+    Raw numbers: <a href="data.json">data.json</a>.
+  </footer>
+</div>
+
+<script>
+const DATA = {{ data_json | safe }};
+const periodKeys = Object.keys(DATA.periods);
+let current = DATA.boards[0].key;
+let sort = { col: "rating", dir: -1 };
+
+const signed = (v) => (v = Math.round(v), v > 0 ? "+" + v : v === 0 ? "±0" : "−" + (-v));
+const cls = (v) => v === 0 ? "flat" : v > 0 ? "up" : "down";
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+
+function value(row, col) {
+  if (col === "rating") return row.rating;
+  if (col === "name") return row.name.toLowerCase();
+  return row.periods[col].delta;
+}
+
+function render() {
+  const board = DATA.boards.find((b) => b.key === current);
+  const combined = current === "combined";
+  if (combined && sort.col === "rating") sort = { col: periodKeys[periodKeys.length - 1], dir: -1 };
+  document.getElementById("note").textContent = combined
+    ? "Each player's change per time control, weighted by games played in it."
+    : "";
+
+  const rows = [...board.rows].sort((a, b) => {
+    const x = value(a, sort.col), y = value(b, sort.col);
+    if (x === y) return 0;
+    return (x < y ? -1 : 1) * sort.dir;
+  });
+
+  const cols = [
+    { key: "name", label: "Player" },
+    ...(combined ? [] : [{ key: "rating", label: "Rating" }]),
+    ...periodKeys.map((k) => ({ key: k, label: DATA.periods[k].label })),
+  ];
+  const head = "<thead><tr><th>#</th>" + cols.map((c) => {
+    const s = sort.col === c.key ? ` aria-sort="${sort.dir < 0 ? "descending" : "ascending"}"` : "";
+    return `<th${s}><button data-col="${c.key}">${esc(c.label)}</button></th>`;
+  }).join("") + "</tr></thead>";
+
+  const body = rows.map((r, i) => {
+    const user = r.name !== r.username ? `<small>${esc(r.username)}</small>` : "";
+    const periods = periodKeys.map((k) => {
+      const p = r.periods[k];
+      const mark = p.new ? '<sup title="New player: counted from their first game">*</sup>' : "";
+      return `<td><span class="${cls(p.delta)}">${signed(p.delta)}${mark}</span><span class="games">${p.games}g</span></td>`;
+    }).join("");
+    return `<tr><td class="rank">${i + 1}</td>` +
+      `<td class="player"><a href="https://www.chess.com/member/${esc(r.username)}">${esc(r.name)}</a>${user}</td>` +
+      (combined ? "" : `<td>${r.rating}</td>`) + periods + "</tr>";
+  }).join("");
+
+  document.getElementById("board").innerHTML = head + "<tbody>" + body + "</tbody>";
+}
+
+document.querySelector(".tabs").addEventListener("click", (e) => {
+  const btn = e.target.closest("button");
+  if (!btn) return;
+  current = btn.dataset.board;
+  document.querySelectorAll(".tabs button").forEach((b) => b.setAttribute("aria-selected", b === btn));
+  render();
+});
+document.getElementById("board").addEventListener("click", (e) => {
+  const btn = e.target.closest("button[data-col]");
+  if (!btn) return;
+  const col = btn.dataset.col;
+  sort = sort.col === col ? { col, dir: -sort.dir } : { col, dir: col === "name" ? 1 : -1 };
+  render();
+});
+render();
+</script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+name: Weekly leaderboard
+
+on:
+  schedule:
+    # Mondays 07:00 UTC (08:00 Irish summer time, 07:00 winter).
+    - cron: "0 7 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: leaderboard
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Optional: add a DISCORD_WEBHOOK repository secret to get the graphics posted to a channel.
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run tests
+        run: python -m unittest
+
+      - name: Fetch ratings and build site
+        run: python -m leaderboard
+
+      - name: Save this week's numbers to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/history
+          git diff --cached --quiet || git commit -m "data: leaderboard for $(date -u +%F)"
+          git push
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+
+      - name: Post graphics to Discord
+        if: env.DISCORD_WEBHOOK != ''
+        run: |
+          args=()
+          i=0
+          for f in site/graphics/week-*.png; do
+            args+=(-F "files[$i]=@$f")
+            i=$((i+1))
+          done
+          curl -sf -F "payload_json={\"content\":\"This week's leaderboard graphics are ready. All graphics: https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/\"}" "${args[@]}" "$DISCORD_WEBHOOK"
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
