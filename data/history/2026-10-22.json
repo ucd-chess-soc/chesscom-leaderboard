@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T23:10:24+00:00",
+ "generated_at": "2026-10-22T23:33:14+00:00",
  "club": "ucd-chess-society",
  "time_classes": [
   "rapid",
@@ -10,13 +10,13 @@
   "week": {
    "label": "Week",
    "headline": "This week's movers",
-   "since": "2026-10-15T23:10:24+00:00",
+   "since": "2026-10-15T23:33:14+00:00",
    "rolling": true
   },
   "month": {
    "label": "30 days",
    "headline": "Movers, last 30 days",
-   "since": "2026-09-22T23:10:24+00:00",
+   "since": "2026-09-22T23:33:14+00:00",
    "rolling": true
   },
   "term": {
@@ -364,8 +364,8 @@
     "rating": 2219,
     "periods": {
      "week": {
-      "delta": 57,
-      "games": 19,
+      "delta": 46,
+      "games": 16,
       "new": false
      },
      "month": {
@@ -2306,8 +2306,8 @@
     "rating": null,
     "periods": {
      "week": {
-      "delta": 57.0,
-      "games": 19,
+      "delta": 46.0,
+      "games": 16,
       "new": false
      },
      "month": {
@@ -3472,8 +3472,8 @@
     "current": 2219,
     "periods": {
      "week": {
-      "start": 2162,
-      "games": 19,
+      "start": 2173,
+      "games": 16,
       "new": false
      },
      "month": {
