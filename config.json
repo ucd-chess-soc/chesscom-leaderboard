@@ -1,0 +1,18 @@
+{
+  "club": "ucd-chess-society",
+  "user_agent": "UCD Chess Society leaderboard (https://www.chess.com/club/ucd-chess-society)",
+  "time_classes": ["rapid", "blitz", "bullet"],
+  "exclude": ["university-college-dublin"],
+  "display_names": {},
+  "periods": [
+    {"key": "week", "label": "Week", "headline": "This week's movers", "days": 7},
+    {"key": "month", "label": "30 days", "headline": "Movers, last 30 days", "days": 30},
+    {"key": "term", "label": "Term", "headline": "Movers this term", "since": "2026-09-07"}
+  ],
+  "graphics": {
+    "movers": ["week", "term"],
+    "ladder": true,
+    "rows": 10,
+    "min_games": 1
+  }
+}
