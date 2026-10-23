@@ -3,6 +3,7 @@
   "user_agent": "UCD Chess Society leaderboard (https://www.chess.com/club/ucd-chess-society)",
   "time_classes": ["rapid", "blitz", "bullet"],
   "exclude": ["university-college-dublin"],
+  "joined_within_days": 365,
   "display_names": {},
   "periods": [
     {"key": "week", "label": "Week", "headline": "This week's movers", "days": 7},
