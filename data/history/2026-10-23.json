@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T00:11:15+00:00",
+ "generated_at": "2026-10-23T00:20:55+00:00",
  "club": "ucd-chess-society",
  "time_classes": [
   "rapid",
@@ -10,13 +10,13 @@
   "week": {
    "label": "Week",
    "headline": "This week's movers",
-   "since": "2026-10-16T00:11:15+00:00",
+   "since": "2026-10-16T00:20:55+00:00",
    "rolling": true
   },
   "month": {
    "label": "30 days",
    "headline": "Movers, last 30 days",
-   "since": "2026-09-23T00:11:15+00:00",
+   "since": "2026-09-23T00:20:55+00:00",
    "rolling": true
   },
   "term": {
@@ -425,28 +425,6 @@
     }
    },
    {
-    "username": "juditsztaray",
-    "name": "juditsztaray",
-    "rating": 716,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   {
     "username": "marchess64",
     "name": "marchess64",
     "rating": 2139,
@@ -464,28 +442,6 @@
      "term": {
       "delta": -9,
       "games": 6,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "martinfitz2003",
-    "name": "martinfitz2003",
-    "rating": 1736,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 50,
-      "games": 3,
-      "new": false
-     },
-     "term": {
-      "delta": 50,
-      "games": 3,
       "new": false
      }
     }
@@ -692,28 +648,6 @@
     "username": "therealreggie10",
     "name": "therealreggie10",
     "rating": 157,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "thomas6785",
-    "name": "thomas6785",
-    "rating": 825,
     "periods": {
      "week": {
       "delta": 0,
@@ -1065,28 +999,6 @@
     }
    },
    {
-    "username": "juditsztaray",
-    "name": "juditsztaray",
-    "rating": 338,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": -7,
-      "games": 1,
-      "new": false
-     },
-     "term": {
-      "delta": -7,
-      "games": 1,
-      "new": false
-     }
-    }
-   },
-   {
     "username": "marchess64",
     "name": "marchess64",
     "rating": 1949,
@@ -1104,28 +1016,6 @@
      "term": {
       "delta": -39,
       "games": 53,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "martinfitz2003",
-    "name": "martinfitz2003",
-    "rating": 1521,
-    "periods": {
-     "week": {
-      "delta": 64,
-      "games": 3,
-      "new": false
-     },
-     "month": {
-      "delta": 64,
-      "games": 3,
-      "new": false
-     },
-     "term": {
-      "delta": 64,
-      "games": 3,
       "new": false
      }
     }
@@ -1332,28 +1222,6 @@
     "username": "therealreggie10",
     "name": "therealreggie10",
     "rating": 100,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "thomas6785",
-    "name": "thomas6785",
-    "rating": 558,
     "periods": {
      "week": {
       "delta": 0,
@@ -1683,28 +1551,6 @@
     }
    },
    {
-    "username": "juditsztaray",
-    "name": "juditsztaray",
-    "rating": 138,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   {
     "username": "marchess64",
     "name": "marchess64",
     "rating": 1983,
@@ -1722,28 +1568,6 @@
      "term": {
       "delta": -56,
       "games": 161,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "martinfitz2003",
-    "name": "martinfitz2003",
-    "rating": 1454,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "delta": 0,
-      "games": 0,
       "new": false
      }
     }
@@ -1928,28 +1752,6 @@
     "username": "therealreggie10",
     "name": "therealreggie10",
     "rating": 100,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "thomas6785",
-    "name": "thomas6785",
-    "rating": 603,
     "periods": {
      "week": {
       "delta": 0,
@@ -2367,28 +2169,6 @@
     }
    },
    {
-    "username": "juditsztaray",
-    "name": "juditsztaray",
-    "rating": null,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": -7.0,
-      "games": 1,
-      "new": false
-     },
-     "term": {
-      "delta": -7.0,
-      "games": 1,
-      "new": false
-     }
-    }
-   },
-   {
     "username": "marchess64",
     "name": "marchess64",
     "rating": null,
@@ -2406,28 +2186,6 @@
      "term": {
       "delta": -50.6,
       "games": 220,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "martinfitz2003",
-    "name": "martinfitz2003",
-    "rating": null,
-    "periods": {
-     "week": {
-      "delta": 64.0,
-      "games": 3,
-      "new": false
-     },
-     "month": {
-      "delta": 57.0,
-      "games": 6,
-      "new": false
-     },
-     "term": {
-      "delta": 57.0,
-      "games": 6,
       "new": false
      }
     }
@@ -2633,28 +2391,6 @@
    {
     "username": "therealreggie10",
     "name": "therealreggie10",
-    "rating": null,
-    "periods": {
-     "week": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "delta": 0,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   {
-    "username": "thomas6785",
-    "name": "thomas6785",
     "rating": null,
     "periods": {
      "week": {
@@ -3653,68 +3389,6 @@
     }
    }
   },
-  "juditsztaray": {
-   "rapid": {
-    "current": 716,
-    "periods": {
-     "week": {
-      "start": 716,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 716,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "start": 716,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   "blitz": {
-    "current": 338,
-    "periods": {
-     "week": {
-      "start": 338,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 345,
-      "games": 1,
-      "new": false
-     },
-     "term": {
-      "start": 345,
-      "games": 1,
-      "new": false
-     }
-    }
-   },
-   "bullet": {
-    "current": 138,
-    "periods": {
-     "week": {
-      "start": 138,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 138,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "start": 138,
-      "games": 0,
-      "new": false
-     }
-    }
-   }
-  },
   "marchess64": {
    "rapid": {
     "current": 2139,
@@ -3772,68 +3446,6 @@
      "term": {
       "start": 2039,
       "games": 161,
-      "new": false
-     }
-    }
-   }
-  },
-  "martinfitz2003": {
-   "rapid": {
-    "current": 1736,
-    "periods": {
-     "week": {
-      "start": 1736,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 1686,
-      "games": 3,
-      "new": false
-     },
-     "term": {
-      "start": 1686,
-      "games": 3,
-      "new": false
-     }
-    }
-   },
-   "blitz": {
-    "current": 1521,
-    "periods": {
-     "week": {
-      "start": 1457,
-      "games": 3,
-      "new": false
-     },
-     "month": {
-      "start": 1457,
-      "games": 3,
-      "new": false
-     },
-     "term": {
-      "start": 1457,
-      "games": 3,
-      "new": false
-     }
-    }
-   },
-   "bullet": {
-    "current": 1454,
-    "periods": {
-     "week": {
-      "start": 1454,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 1454,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "start": 1454,
-      "games": 0,
       "new": false
      }
     }
@@ -4433,68 +4045,6 @@
      },
      "term": {
       "start": 100,
-      "games": 0,
-      "new": false
-     }
-    }
-   }
-  },
-  "thomas6785": {
-   "rapid": {
-    "current": 825,
-    "periods": {
-     "week": {
-      "start": 825,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 825,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "start": 825,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   "blitz": {
-    "current": 558,
-    "periods": {
-     "week": {
-      "start": 558,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 558,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "start": 558,
-      "games": 0,
-      "new": false
-     }
-    }
-   },
-   "bullet": {
-    "current": 603,
-    "periods": {
-     "week": {
-      "start": 603,
-      "games": 0,
-      "new": false
-     },
-     "month": {
-      "start": 603,
-      "games": 0,
-      "new": false
-     },
-     "term": {
-      "start": 603,
       "games": 0,
       "new": false
      }
