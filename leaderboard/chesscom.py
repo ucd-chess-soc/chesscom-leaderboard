@@ -48,9 +48,12 @@ class Client:
         return data
 
     def club_members(self, club):
-        """All usernames in the club (the API groups them by activity, not join date)."""
+        """{username: unix time they joined the club}.
+
+        The API groups members by activity, not join date.
+        """
         data = self.get(f"{BASE}/club/{club}/members")
-        return sorted({m["username"].lower() for group in data.values() for m in group})
+        return {m["username"].lower(): m["joined"] for group in data.values() for m in group}
 
     def stats(self, username):
         return self.get(f"{BASE}/player/{username}/stats")

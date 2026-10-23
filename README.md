@@ -34,6 +34,7 @@ permanent record for awards.
 | --- | --- |
 | `time_classes` | Which leaderboards to show. Add `"daily"` for correspondence chess. |
 | `exclude` | Usernames to leave out (e.g. the society's own account). |
+| `joined_within_days` | Only include members who joined the chess.com club within this many days (365 = the last year). Set to `null` to include everyone. |
 | `display_names` | Optional `{"username": "Real Name"}` shown instead of usernames. The site is public, so only add names of people who are happy to be listed. |
 | `periods` | The comparison windows: rolling (`"days": 7`) or fixed (`"since": "2026-09-07"`). **Update the term `since` date each term.** |
 | `graphics.movers` | Which periods get "movers" graphics. |

@@ -44,7 +44,14 @@ def fetch(config, now):
     windows = period_windows(config, now)
     starts = {key: int(w["since"].timestamp()) for key, w in windows.items()}
     exclude = {u.lower() for u in config["exclude"]}
-    members = [u for u in client.club_members(config["club"]) if u not in exclude]
+    joined_after = 0
+    if config.get("joined_within_days"):
+        joined_after = (now - timedelta(days=config["joined_within_days"])).timestamp()
+    members = sorted(
+        u
+        for u, joined in client.club_members(config["club"]).items()
+        if u not in exclude and joined >= joined_after
+    )
 
     players = {}
     for i, username in enumerate(members, 1):
