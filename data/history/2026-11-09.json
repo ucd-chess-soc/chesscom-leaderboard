@@ -1,0 +1,5213 @@
+{
+ "generated_at": "2026-11-09T08:15:14+00:00",
+ "club": "ucd-chess-society",
+ "time_classes": [
+  "rapid",
+  "blitz",
+  "bullet"
+ ],
+ "periods": {
+  "week": {
+   "label": "Week",
+   "headline": "This week's movers",
+   "since": "2026-11-02T08:15:14+00:00",
+   "rolling": true
+  },
+  "month": {
+   "label": "30 days",
+   "headline": "Movers, last 30 days",
+   "since": "2026-10-10T08:15:14+00:00",
+   "rolling": true
+  },
+  "term": {
+   "label": "Term",
+   "headline": "Movers this term",
+   "since": "2026-09-07T00:00:00+00:00",
+   "rolling": false
+  }
+ },
+ "boards": {
+  "rapid": [
+   {
+    "username": "ajv09200",
+    "name": "ajv09200",
+    "rating": 1012,
+    "periods": {
+     "week": {
+      "delta": -40,
+      "games": 31,
+      "new": false
+     },
+     "month": {
+      "delta": -62,
+      "games": 85,
+      "new": false
+     },
+     "term": {
+      "delta": -7,
+      "games": 151,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alan2187",
+    "name": "alan2187",
+    "rating": 623,
+    "periods": {
+     "week": {
+      "delta": 10,
+      "games": 16,
+      "new": false
+     },
+     "month": {
+      "delta": 230,
+      "games": 28,
+      "new": false
+     },
+     "term": {
+      "delta": 230,
+      "games": 28,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alexkiersey",
+    "name": "alexkiersey",
+    "rating": 1260,
+    "periods": {
+     "week": {
+      "delta": 152,
+      "games": 58,
+      "new": false
+     },
+     "month": {
+      "delta": 269,
+      "games": 240,
+      "new": false
+     },
+     "term": {
+      "delta": 304,
+      "games": 447,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "balaadity",
+    "name": "balaadity",
+    "rating": 1531,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "bc3141",
+    "name": "bc3141",
+    "rating": 1891,
+    "periods": {
+     "week": {
+      "delta": -8,
+      "games": 9,
+      "new": false
+     },
+     "month": {
+      "delta": -77,
+      "games": 109,
+      "new": false
+     },
+     "term": {
+      "delta": 253,
+      "games": 180,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "beetrootp00",
+    "name": "beetrootp00",
+    "rating": 1099,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "bingu_1",
+    "name": "bingu_1",
+    "rating": 369,
+    "periods": {
+     "week": {
+      "delta": -41,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "delta": 21,
+      "games": 38,
+      "new": false
+     },
+     "term": {
+      "delta": 21,
+      "games": 38,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "catrinwodrich",
+    "name": "catrinwodrich",
+    "rating": 331,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "changxin96",
+    "name": "changxin96",
+    "rating": 267,
+    "periods": {
+     "week": {
+      "delta": 7,
+      "games": 18,
+      "new": false
+     },
+     "month": {
+      "delta": 86,
+      "games": 59,
+      "new": false
+     },
+     "term": {
+      "delta": 64,
+      "games": 74,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "checkmatesam14",
+    "name": "checkmatesam14",
+    "rating": 689,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "chesstickles07",
+    "name": "chesstickles07",
+    "rating": 737,
+    "periods": {
+     "week": {
+      "delta": 30,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "delta": 33,
+      "games": 15,
+      "new": false
+     },
+     "term": {
+      "delta": -27,
+      "games": 33,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "codymcg",
+    "name": "codymcg",
+    "rating": 904,
+    "periods": {
+     "week": {
+      "delta": 13,
+      "games": 3,
+      "new": false
+     },
+     "month": {
+      "delta": 2,
+      "games": 4,
+      "new": false
+     },
+     "term": {
+      "delta": 12,
+      "games": 5,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "dad109",
+    "name": "dad109",
+    "rating": 1844,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 45,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "deviprasad11",
+    "name": "deviprasad11",
+    "rating": 1066,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "emlowen",
+    "name": "emlowen",
+    "rating": 1135,
+    "periods": {
+     "week": {
+      "delta": 8,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": 9,
+      "games": 7,
+      "new": false
+     },
+     "term": {
+      "delta": -14,
+      "games": 50,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "ericwangisbadatchess",
+    "name": "ericwangisbadatchess",
+    "rating": 1603,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 132,
+      "games": 80,
+      "new": false
+     },
+     "term": {
+      "delta": 215,
+      "games": 146,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "futuregm99",
+    "name": "futuregm99",
+    "rating": 2273,
+    "periods": {
+     "week": {
+      "delta": 10,
+      "games": 8,
+      "new": false
+     },
+     "month": {
+      "delta": 153,
+      "games": 48,
+      "new": false
+     },
+     "term": {
+      "delta": 153,
+      "games": 48,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "gnik_hs",
+    "name": "gnik_hs",
+    "rating": 567,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hamrhd06",
+    "name": "hamrhd06",
+    "rating": 1939,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 114,
+      "games": 44,
+      "new": false
+     },
+     "term": {
+      "delta": 119,
+      "games": 90,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hansimen_isusingatplug",
+    "name": "hansimen_isusingatplug",
+    "rating": 823,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jinglebagel",
+    "name": "jinglebagel",
+    "rating": 2101,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jujujvz",
+    "name": "jujujvz",
+    "rating": 1711,
+    "periods": {
+     "week": {
+      "delta": 36,
+      "games": 73,
+      "new": false
+     },
+     "month": {
+      "delta": -123,
+      "games": 220,
+      "new": false
+     },
+     "term": {
+      "delta": 53,
+      "games": 527,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "leo_coyle",
+    "name": "leo_coyle",
+    "rating": 1086,
+    "periods": {
+     "week": {
+      "delta": 37,
+      "games": 13,
+      "new": false
+     },
+     "month": {
+      "delta": 160,
+      "games": 22,
+      "new": false
+     },
+     "term": {
+      "delta": 127,
+      "games": 25,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "leraiog",
+    "name": "leraiog",
+    "rating": 1057,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 8,
+      "games": 24,
+      "new": false
+     },
+     "term": {
+      "delta": -21,
+      "games": 30,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "lucachinno32",
+    "name": "lucachinno32",
+    "rating": 1584,
+    "periods": {
+     "week": {
+      "delta": -17,
+      "games": 28,
+      "new": false
+     },
+     "month": {
+      "delta": 38,
+      "games": 248,
+      "new": false
+     },
+     "term": {
+      "delta": 108,
+      "games": 488,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "marchess64",
+    "name": "marchess64",
+    "rating": 2159,
+    "periods": {
+     "week": {
+      "delta": 28,
+      "games": 9,
+      "new": false
+     },
+     "month": {
+      "delta": 11,
+      "games": 16,
+      "new": false
+     },
+     "term": {
+      "delta": 11,
+      "games": 16,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "medievaltwo",
+    "name": "medievaltwo",
+    "rating": 1431,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "michaelon_chess",
+    "name": "michaelon_chess",
+    "rating": 1100,
+    "periods": {
+     "week": {
+      "delta": 29,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "delta": 29,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "delta": 43,
+      "games": 5,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "milena373",
+    "name": "milena373",
+    "rating": 1842,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "mylesmcmanusrk",
+    "name": "mylesmcmanusrk",
+    "rating": 1691,
+    "periods": {
+     "week": {
+      "delta": -15,
+      "games": 4,
+      "new": false
+     },
+     "month": {
+      "delta": 41,
+      "games": 23,
+      "new": true
+     },
+     "term": {
+      "delta": 41,
+      "games": 23,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "niallfitzgerald1",
+    "name": "niallfitzgerald1",
+    "rating": 1511,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "nuqmanzul",
+    "name": "nuqmanzul",
+    "rating": 1976,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "quasimodos-self-hate",
+    "name": "quasimodos-self-hate",
+    "rating": 779,
+    "periods": {
+     "week": {
+      "delta": -8,
+      "games": 3,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 38,
+      "new": false
+     },
+     "term": {
+      "delta": -31,
+      "games": 52,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "rc2903",
+    "name": "rc2903",
+    "rating": 1499,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 76,
+      "games": 14,
+      "new": false
+     },
+     "term": {
+      "delta": 53,
+      "games": 21,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shcannyy",
+    "name": "shcannyy",
+    "rating": 2081,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 97,
+      "games": 14,
+      "new": false
+     },
+     "term": {
+      "delta": 97,
+      "games": 14,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shimmy-steel",
+    "name": "shimmy-steel",
+    "rating": 1407,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 13,
+      "games": 4,
+      "new": false
+     },
+     "term": {
+      "delta": 6,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "therealreggie10",
+    "name": "therealreggie10",
+    "rating": 120,
+    "periods": {
+     "week": {
+      "delta": -5,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "delta": -37,
+      "games": 6,
+      "new": false
+     },
+     "term": {
+      "delta": -37,
+      "games": 6,
+      "new": false
+     }
+    }
+   }
+  ],
+  "blitz": [
+   {
+    "username": "ajv09200",
+    "name": "ajv09200",
+    "rating": 878,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 39,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "delta": 20,
+      "games": 3,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alan2187",
+    "name": "alan2187",
+    "rating": 397,
+    "periods": {
+     "week": {
+      "delta": 30,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": 30,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "delta": 30,
+      "games": 1,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alexkiersey",
+    "name": "alexkiersey",
+    "rating": 1147,
+    "periods": {
+     "week": {
+      "delta": 108,
+      "games": 21,
+      "new": false
+     },
+     "month": {
+      "delta": 108,
+      "games": 21,
+      "new": false
+     },
+     "term": {
+      "delta": 108,
+      "games": 21,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "bc3141",
+    "name": "bc3141",
+    "rating": 1540,
+    "periods": {
+     "week": {
+      "delta": -26,
+      "games": 20,
+      "new": false
+     },
+     "month": {
+      "delta": -26,
+      "games": 20,
+      "new": false
+     },
+     "term": {
+      "delta": -195,
+      "games": 41,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "beetrootp00",
+    "name": "beetrootp00",
+    "rating": 1081,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 17,
+      "games": 6,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "bingu_1",
+    "name": "bingu_1",
+    "rating": 326,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": -204,
+      "games": 3,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "checkmatesam14",
+    "name": "checkmatesam14",
+    "rating": 729,
+    "periods": {
+     "week": {
+      "delta": 8,
+      "games": 9,
+      "new": false
+     },
+     "month": {
+      "delta": 186,
+      "games": 32,
+      "new": false
+     },
+     "term": {
+      "delta": 186,
+      "games": 32,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "chesstickles07",
+    "name": "chesstickles07",
+    "rating": 288,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 76,
+      "games": 16,
+      "new": false
+     },
+     "term": {
+      "delta": -1,
+      "games": 22,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "codymcg",
+    "name": "codymcg",
+    "rating": 471,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -8,
+      "games": 5,
+      "new": false
+     },
+     "term": {
+      "delta": 39,
+      "games": 22,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "dad109",
+    "name": "dad109",
+    "rating": 1760,
+    "periods": {
+     "week": {
+      "delta": -10,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": -10,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "delta": 45,
+      "games": 32,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "deviprasad11",
+    "name": "deviprasad11",
+    "rating": 1335,
+    "periods": {
+     "week": {
+      "delta": 127,
+      "games": 76,
+      "new": false
+     },
+     "month": {
+      "delta": 144,
+      "games": 82,
+      "new": false
+     },
+     "term": {
+      "delta": 144,
+      "games": 91,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "emlowen",
+    "name": "emlowen",
+    "rating": 775,
+    "periods": {
+     "week": {
+      "delta": 8,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": -15,
+      "games": 72,
+      "new": false
+     },
+     "term": {
+      "delta": 39,
+      "games": 100,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "ericwangisbadatchess",
+    "name": "ericwangisbadatchess",
+    "rating": 1686,
+    "periods": {
+     "week": {
+      "delta": -24,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "delta": 97,
+      "games": 155,
+      "new": false
+     },
+     "term": {
+      "delta": 203,
+      "games": 344,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "futuregm99",
+    "name": "futuregm99",
+    "rating": 2451,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 24,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "delta": 55,
+      "games": 2,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "gnik_hs",
+    "name": "gnik_hs",
+    "rating": 990,
+    "periods": {
+     "week": {
+      "delta": 8,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": 72,
+      "games": 48,
+      "new": false
+     },
+     "term": {
+      "delta": 207,
+      "games": 73,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hamrhd06",
+    "name": "hamrhd06",
+    "rating": 1746,
+    "periods": {
+     "week": {
+      "delta": 54,
+      "games": 73,
+      "new": false
+     },
+     "month": {
+      "delta": 19,
+      "games": 262,
+      "new": false
+     },
+     "term": {
+      "delta": -93,
+      "games": 535,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hansimen_isusingatplug",
+    "name": "hansimen_isusingatplug",
+    "rating": 578,
+    "periods": {
+     "week": {
+      "delta": 16,
+      "games": 16,
+      "new": false
+     },
+     "month": {
+      "delta": 55,
+      "games": 35,
+      "new": false
+     },
+     "term": {
+      "delta": 55,
+      "games": 35,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jinglebagel",
+    "name": "jinglebagel",
+    "rating": 2049,
+    "periods": {
+     "week": {
+      "delta": -6,
+      "games": 6,
+      "new": false
+     },
+     "month": {
+      "delta": 30,
+      "games": 33,
+      "new": false
+     },
+     "term": {
+      "delta": 14,
+      "games": 41,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jujujvz",
+    "name": "jujujvz",
+    "rating": 1237,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -23,
+      "games": 5,
+      "new": false
+     },
+     "term": {
+      "delta": -7,
+      "games": 12,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "leo_coyle",
+    "name": "leo_coyle",
+    "rating": 803,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -95,
+      "games": 17,
+      "new": false
+     },
+     "term": {
+      "delta": -95,
+      "games": 18,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "leraiog",
+    "name": "leraiog",
+    "rating": 642,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -6,
+      "games": 4,
+      "new": false
+     },
+     "term": {
+      "delta": -81,
+      "games": 10,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "lucachinno32",
+    "name": "lucachinno32",
+    "rating": 1097,
+    "periods": {
+     "week": {
+      "delta": 7,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": 4,
+      "games": 12,
+      "new": false
+     },
+     "term": {
+      "delta": 315,
+      "games": 88,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "marchess64",
+    "name": "marchess64",
+    "rating": 1923,
+    "periods": {
+     "week": {
+      "delta": 14,
+      "games": 6,
+      "new": false
+     },
+     "month": {
+      "delta": -11,
+      "games": 50,
+      "new": false
+     },
+     "term": {
+      "delta": -65,
+      "games": 82,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "medievaltwo",
+    "name": "medievaltwo",
+    "rating": 1163,
+    "periods": {
+     "week": {
+      "delta": 52,
+      "games": 20,
+      "new": false
+     },
+     "month": {
+      "delta": 77,
+      "games": 37,
+      "new": false
+     },
+     "term": {
+      "delta": 73,
+      "games": 47,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "michaelon_chess",
+    "name": "michaelon_chess",
+    "rating": 1409,
+    "periods": {
+     "week": {
+      "delta": 31,
+      "games": 58,
+      "new": false
+     },
+     "month": {
+      "delta": 5,
+      "games": 244,
+      "new": false
+     },
+     "term": {
+      "delta": 136,
+      "games": 738,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "milena373",
+    "name": "milena373",
+    "rating": 1900,
+    "periods": {
+     "week": {
+      "delta": -15,
+      "games": 13,
+      "new": false
+     },
+     "month": {
+      "delta": 13,
+      "games": 33,
+      "new": false
+     },
+     "term": {
+      "delta": 88,
+      "games": 103,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "mylesmcmanusrk",
+    "name": "mylesmcmanusrk",
+    "rating": 1142,
+    "periods": {
+     "week": {
+      "delta": -103,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": -386,
+      "games": 3,
+      "new": true
+     },
+     "term": {
+      "delta": -386,
+      "games": 3,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "niallfitzgerald1",
+    "name": "niallfitzgerald1",
+    "rating": 1786,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 68,
+      "games": 58,
+      "new": false
+     },
+     "term": {
+      "delta": 291,
+      "games": 149,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "nuqmanzul",
+    "name": "nuqmanzul",
+    "rating": 1855,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": -1,
+      "games": 2,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "quasimodos-self-hate",
+    "name": "quasimodos-self-hate",
+    "rating": 400,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -75,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "delta": -196,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "rc2903",
+    "name": "rc2903",
+    "rating": 1007,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 4,
+      "new": false
+     },
+     "month": {
+      "delta": -78,
+      "games": 8,
+      "new": false
+     },
+     "term": {
+      "delta": -99,
+      "games": 9,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shcannyy",
+    "name": "shcannyy",
+    "rating": 1520,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -31,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "delta": -31,
+      "games": 2,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shimmy-steel",
+    "name": "shimmy-steel",
+    "rating": 1229,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "therealreggie10",
+    "name": "therealreggie10",
+    "rating": 100,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  ],
+  "bullet": [
+   {
+    "username": "ajv09200",
+    "name": "ajv09200",
+    "rating": 980,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alan2187",
+    "name": "alan2187",
+    "rating": 305,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alexkiersey",
+    "name": "alexkiersey",
+    "rating": 793,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "delta": 166,
+      "games": 98,
+      "new": false
+     },
+     "term": {
+      "delta": -5,
+      "games": 103,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "balaadity",
+    "name": "balaadity",
+    "rating": 1140,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "beetrootp00",
+    "name": "beetrootp00",
+    "rating": 1117,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "checkmatesam14",
+    "name": "checkmatesam14",
+    "rating": 712,
+    "periods": {
+     "week": {
+      "delta": 129,
+      "games": 90,
+      "new": false
+     },
+     "month": {
+      "delta": 81,
+      "games": 123,
+      "new": false
+     },
+     "term": {
+      "delta": 49,
+      "games": 139,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "chesstickles07",
+    "name": "chesstickles07",
+    "rating": 442,
+    "periods": {
+     "week": {
+      "delta": -26,
+      "games": 27,
+      "new": false
+     },
+     "month": {
+      "delta": 146,
+      "games": 175,
+      "new": false
+     },
+     "term": {
+      "delta": -15,
+      "games": 195,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "codymcg",
+    "name": "codymcg",
+    "rating": 266,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -15,
+      "games": 11,
+      "new": false
+     },
+     "term": {
+      "delta": 66,
+      "games": 25,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "dad109",
+    "name": "dad109",
+    "rating": 1702,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 60,
+      "games": 21,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "deviprasad11",
+    "name": "deviprasad11",
+    "rating": 1279,
+    "periods": {
+     "week": {
+      "delta": 89,
+      "games": 160,
+      "new": false
+     },
+     "month": {
+      "delta": 155,
+      "games": 660,
+      "new": false
+     },
+     "term": {
+      "delta": 62,
+      "games": 1092,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "emlowen",
+    "name": "emlowen",
+    "rating": 393,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "ericwangisbadatchess",
+    "name": "ericwangisbadatchess",
+    "rating": 1640,
+    "periods": {
+     "week": {
+      "delta": -18,
+      "games": 177,
+      "new": false
+     },
+     "month": {
+      "delta": -5,
+      "games": 383,
+      "new": false
+     },
+     "term": {
+      "delta": 156,
+      "games": 660,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "futuregm99",
+    "name": "futuregm99",
+    "rating": 2516,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 8,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "delta": 17,
+      "games": 4,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hamrhd06",
+    "name": "hamrhd06",
+    "rating": 1621,
+    "periods": {
+     "week": {
+      "delta": -108,
+      "games": 52,
+      "new": false
+     },
+     "month": {
+      "delta": 32,
+      "games": 206,
+      "new": false
+     },
+     "term": {
+      "delta": 17,
+      "games": 455,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hansimen_isusingatplug",
+    "name": "hansimen_isusingatplug",
+    "rating": 405,
+    "periods": {
+     "week": {
+      "delta": -11,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": -53,
+      "games": 6,
+      "new": false
+     },
+     "term": {
+      "delta": 20,
+      "games": 20,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jinglebagel",
+    "name": "jinglebagel",
+    "rating": 2046,
+    "periods": {
+     "week": {
+      "delta": -56,
+      "games": 17,
+      "new": false
+     },
+     "month": {
+      "delta": 41,
+      "games": 223,
+      "new": false
+     },
+     "term": {
+      "delta": 66,
+      "games": 323,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jujujvz",
+    "name": "jujujvz",
+    "rating": 1022,
+    "periods": {
+     "week": {
+      "delta": 29,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "delta": 15,
+      "games": 3,
+      "new": false
+     },
+     "term": {
+      "delta": 28,
+      "games": 6,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "leo_coyle",
+    "name": "leo_coyle",
+    "rating": 701,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 25,
+      "games": 3,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "leraiog",
+    "name": "leraiog",
+    "rating": 800,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 38,
+      "games": 3,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "lucachinno32",
+    "name": "lucachinno32",
+    "rating": 799,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": -3,
+      "games": 19,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "marchess64",
+    "name": "marchess64",
+    "rating": 1975,
+    "periods": {
+     "week": {
+      "delta": -16,
+      "games": 4,
+      "new": false
+     },
+     "month": {
+      "delta": 12,
+      "games": 71,
+      "new": false
+     },
+     "term": {
+      "delta": -64,
+      "games": 196,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "medievaltwo",
+    "name": "medievaltwo",
+    "rating": 786,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 34,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "delta": 34,
+      "games": 1,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "michaelon_chess",
+    "name": "michaelon_chess",
+    "rating": 1512,
+    "periods": {
+     "week": {
+      "delta": 113,
+      "games": 21,
+      "new": false
+     },
+     "month": {
+      "delta": 113,
+      "games": 21,
+      "new": false
+     },
+     "term": {
+      "delta": 138,
+      "games": 34,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "milena373",
+    "name": "milena373",
+    "rating": 1803,
+    "periods": {
+     "week": {
+      "delta": -26,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "delta": -2,
+      "games": 92,
+      "new": false
+     },
+     "term": {
+      "delta": 9,
+      "games": 274,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "mylesmcmanusrk",
+    "name": "mylesmcmanusrk",
+    "rating": 1514,
+    "periods": {
+     "week": {
+      "delta": -23,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": -459,
+      "games": 16,
+      "new": true
+     },
+     "term": {
+      "delta": -459,
+      "games": 16,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "nuqmanzul",
+    "name": "nuqmanzul",
+    "rating": 1571,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "quasimodos-self-hate",
+    "name": "quasimodos-self-hate",
+    "rating": 486,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": -82,
+      "games": 1,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "rc2903",
+    "name": "rc2903",
+    "rating": 1160,
+    "periods": {
+     "week": {
+      "delta": -18,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "delta": 16,
+      "games": 9,
+      "new": false
+     },
+     "term": {
+      "delta": 6,
+      "games": 28,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shcannyy",
+    "name": "shcannyy",
+    "rating": 1143,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": -52,
+      "games": 7,
+      "new": false
+     },
+     "term": {
+      "delta": -52,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shimmy-steel",
+    "name": "shimmy-steel",
+    "rating": 705,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "therealreggie10",
+    "name": "therealreggie10",
+    "rating": 100,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  ],
+  "combined": [
+   {
+    "username": "ajv09200",
+    "name": "ajv09200",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -40.0,
+      "games": 31,
+      "new": false
+     },
+     "month": {
+      "delta": -59.7,
+      "games": 87,
+      "new": false
+     },
+     "term": {
+      "delta": -6.5,
+      "games": 154,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alan2187",
+    "name": "alan2187",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 11.2,
+      "games": 17,
+      "new": false
+     },
+     "month": {
+      "delta": 223.1,
+      "games": 29,
+      "new": false
+     },
+     "term": {
+      "delta": 223.1,
+      "games": 29,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "alexkiersey",
+    "name": "alexkiersey",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 136.8,
+      "games": 81,
+      "new": false
+     },
+     "month": {
+      "delta": 231.5,
+      "games": 359,
+      "new": false
+     },
+     "term": {
+      "delta": 241.1,
+      "games": 571,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "balaadity",
+    "name": "balaadity",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "bc3141",
+    "name": "bc3141",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -20.4,
+      "games": 29,
+      "new": false
+     },
+     "month": {
+      "delta": -69.1,
+      "games": 129,
+      "new": false
+     },
+     "term": {
+      "delta": 169.9,
+      "games": 221,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "beetrootp00",
+    "name": "beetrootp00",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 17.0,
+      "games": 6,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "bingu_1",
+    "name": "bingu_1",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -41.0,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "delta": 21.0,
+      "games": 38,
+      "new": false
+     },
+     "term": {
+      "delta": 4.5,
+      "games": 41,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "catrinwodrich",
+    "name": "catrinwodrich",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "changxin96",
+    "name": "changxin96",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 7.0,
+      "games": 18,
+      "new": false
+     },
+     "month": {
+      "delta": 86.0,
+      "games": 59,
+      "new": false
+     },
+     "term": {
+      "delta": 64.0,
+      "games": 74,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "checkmatesam14",
+    "name": "checkmatesam14",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 118.0,
+      "games": 99,
+      "new": false
+     },
+     "month": {
+      "delta": 102.7,
+      "games": 155,
+      "new": false
+     },
+     "term": {
+      "delta": 74.6,
+      "games": 171,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "chesstickles07",
+    "name": "chesstickles07",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -17.2,
+      "games": 32,
+      "new": false
+     },
+     "month": {
+      "delta": 132.3,
+      "games": 206,
+      "new": false
+     },
+     "term": {
+      "delta": -15.4,
+      "games": 250,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "codymcg",
+    "name": "codymcg",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 13.0,
+      "games": 3,
+      "new": false
+     },
+     "month": {
+      "delta": -9.8,
+      "games": 20,
+      "new": false
+     },
+     "term": {
+      "delta": 49.4,
+      "games": 52,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "dad109",
+    "name": "dad109",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -10.0,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": -10.0,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "delta": 50.2,
+      "games": 60,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "deviprasad11",
+    "name": "deviprasad11",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 101.2,
+      "games": 236,
+      "new": false
+     },
+     "month": {
+      "delta": 153.8,
+      "games": 742,
+      "new": false
+     },
+     "term": {
+      "delta": 68.3,
+      "games": 1183,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "emlowen",
+    "name": "emlowen",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 8.0,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "delta": -12.9,
+      "games": 79,
+      "new": false
+     },
+     "term": {
+      "delta": 21.3,
+      "games": 150,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "ericwangisbadatchess",
+    "name": "ericwangisbadatchess",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -18.2,
+      "games": 182,
+      "new": false
+     },
+     "month": {
+      "delta": 38.3,
+      "games": 618,
+      "new": false
+     },
+     "term": {
+      "delta": 177.5,
+      "games": 1150,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "futuregm99",
+    "name": "futuregm99",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 10.0,
+      "games": 8,
+      "new": false
+     },
+     "month": {
+      "delta": 147.5,
+      "games": 50,
+      "new": false
+     },
+     "term": {
+      "delta": 139.3,
+      "games": 54,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "gnik_hs",
+    "name": "gnik_hs",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 8.0,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "delta": 72.0,
+      "games": 48,
+      "new": false
+     },
+     "term": {
+      "delta": 207.0,
+      "games": 73,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hamrhd06",
+    "name": "hamrhd06",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -13.4,
+      "games": 125,
+      "new": false
+     },
+     "month": {
+      "delta": 32.4,
+      "games": 512,
+      "new": false
+     },
+     "term": {
+      "delta": -29.0,
+      "games": 1080,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "hansimen_isusingatplug",
+    "name": "hansimen_isusingatplug",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 14.4,
+      "games": 17,
+      "new": false
+     },
+     "month": {
+      "delta": 39.2,
+      "games": 41,
+      "new": false
+     },
+     "term": {
+      "delta": 42.3,
+      "games": 55,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jinglebagel",
+    "name": "jinglebagel",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -43.0,
+      "games": 23,
+      "new": false
+     },
+     "month": {
+      "delta": 39.6,
+      "games": 256,
+      "new": false
+     },
+     "term": {
+      "delta": 60.1,
+      "games": 364,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "jujujvz",
+    "name": "jujujvz",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 35.8,
+      "games": 75,
+      "new": false
+     },
+     "month": {
+      "delta": -119.0,
+      "games": 228,
+      "new": false
+     },
+     "term": {
+      "delta": 51.4,
+      "games": 545,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "leo_coyle",
+    "name": "leo_coyle",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 37.0,
+      "games": 13,
+      "new": false
+     },
+     "month": {
+      "delta": 48.8,
+      "games": 39,
+      "new": false
+     },
+     "term": {
+      "delta": 33.5,
+      "games": 46,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "leraiog",
+    "name": "leraiog",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 6.0,
+      "games": 28,
+      "new": false
+     },
+     "term": {
+      "delta": -30.8,
+      "games": 43,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "lucachinno32",
+    "name": "lucachinno32",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -16.2,
+      "games": 29,
+      "new": false
+     },
+     "month": {
+      "delta": 36.4,
+      "games": 260,
+      "new": false
+     },
+     "term": {
+      "delta": 135.1,
+      "games": 595,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "marchess64",
+    "name": "marchess64",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 14.3,
+      "games": 19,
+      "new": false
+     },
+     "month": {
+      "delta": 3.5,
+      "games": 137,
+      "new": false
+     },
+     "term": {
+      "delta": -60.2,
+      "games": 294,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "medievaltwo",
+    "name": "medievaltwo",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 52.0,
+      "games": 20,
+      "new": false
+     },
+     "month": {
+      "delta": 75.9,
+      "games": 38,
+      "new": false
+     },
+     "term": {
+      "delta": 72.2,
+      "games": 48,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "michaelon_chess",
+    "name": "michaelon_chess",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 52.2,
+      "games": 81,
+      "new": false
+     },
+     "month": {
+      "delta": 13.7,
+      "games": 267,
+      "new": false
+     },
+     "term": {
+      "delta": 135.5,
+      "games": 777,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "milena373",
+    "name": "milena373",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -18.1,
+      "games": 18,
+      "new": false
+     },
+     "month": {
+      "delta": 2.0,
+      "games": 125,
+      "new": false
+     },
+     "term": {
+      "delta": 30.6,
+      "games": 377,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "mylesmcmanusrk",
+    "name": "mylesmcmanusrk",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -31.0,
+      "games": 6,
+      "new": false
+     },
+     "month": {
+      "delta": -180.0,
+      "games": 42,
+      "new": true
+     },
+     "term": {
+      "delta": -180.0,
+      "games": 42,
+      "new": true
+     }
+    }
+   },
+   {
+    "username": "niallfitzgerald1",
+    "name": "niallfitzgerald1",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 68.0,
+      "games": 58,
+      "new": false
+     },
+     "term": {
+      "delta": 291.0,
+      "games": 149,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "nuqmanzul",
+    "name": "nuqmanzul",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "delta": -1.0,
+      "games": 2,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "quasimodos-self-hate",
+    "name": "quasimodos-self-hate",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -8.0,
+      "games": 3,
+      "new": false
+     },
+     "month": {
+      "delta": -3.8,
+      "games": 40,
+      "new": false
+     },
+     "term": {
+      "delta": -51.1,
+      "games": 60,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "rc2903",
+    "name": "rc2903",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -6.0,
+      "games": 6,
+      "new": false
+     },
+     "month": {
+      "delta": 18.8,
+      "games": 31,
+      "new": false
+     },
+     "term": {
+      "delta": 6.7,
+      "games": 58,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shcannyy",
+    "name": "shcannyy",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 40.5,
+      "games": 23,
+      "new": false
+     },
+     "term": {
+      "delta": 40.5,
+      "games": 23,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "shimmy-steel",
+    "name": "shimmy-steel",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": 0,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "delta": 13.0,
+      "games": 4,
+      "new": false
+     },
+     "term": {
+      "delta": 6.0,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   {
+    "username": "therealreggie10",
+    "name": "therealreggie10",
+    "rating": null,
+    "periods": {
+     "week": {
+      "delta": -5.0,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "delta": -37.0,
+      "games": 6,
+      "new": false
+     },
+     "term": {
+      "delta": -37.0,
+      "games": 6,
+      "new": false
+     }
+    }
+   }
+  ]
+ },
+ "players": {
+  "ajv09200": {
+   "rapid": {
+    "current": 1012,
+    "periods": {
+     "week": {
+      "start": 1052,
+      "games": 31,
+      "new": false
+     },
+     "month": {
+      "start": 1074,
+      "games": 85,
+      "new": false
+     },
+     "term": {
+      "start": 1019,
+      "games": 151,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 878,
+    "periods": {
+     "week": {
+      "start": 878,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 839,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "start": 858,
+      "games": 3,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 980,
+    "periods": {
+     "week": {
+      "start": 980,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 980,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 980,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "alan2187": {
+   "rapid": {
+    "current": 623,
+    "periods": {
+     "week": {
+      "start": 613,
+      "games": 16,
+      "new": false
+     },
+     "month": {
+      "start": 393,
+      "games": 28,
+      "new": false
+     },
+     "term": {
+      "start": 393,
+      "games": 28,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 397,
+    "periods": {
+     "week": {
+      "start": 367,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 367,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "start": 367,
+      "games": 1,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 305,
+    "periods": {
+     "week": {
+      "start": 305,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 305,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 305,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "alexkiersey": {
+   "rapid": {
+    "current": 1260,
+    "periods": {
+     "week": {
+      "start": 1108,
+      "games": 58,
+      "new": false
+     },
+     "month": {
+      "start": 991,
+      "games": 240,
+      "new": false
+     },
+     "term": {
+      "start": 956,
+      "games": 447,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1147,
+    "periods": {
+     "week": {
+      "start": 1039,
+      "games": 21,
+      "new": false
+     },
+     "month": {
+      "start": 1039,
+      "games": 21,
+      "new": false
+     },
+     "term": {
+      "start": 1039,
+      "games": 21,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 793,
+    "periods": {
+     "week": {
+      "start": 793,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "start": 627,
+      "games": 98,
+      "new": false
+     },
+     "term": {
+      "start": 798,
+      "games": 103,
+      "new": false
+     }
+    }
+   }
+  },
+  "balaadity": {
+   "rapid": {
+    "current": 1531,
+    "periods": {
+     "week": {
+      "start": 1531,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1531,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1531,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1140,
+    "periods": {
+     "week": {
+      "start": 1140,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1140,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1140,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "bc3141": {
+   "rapid": {
+    "current": 1891,
+    "periods": {
+     "week": {
+      "start": 1899,
+      "games": 9,
+      "new": false
+     },
+     "month": {
+      "start": 1968,
+      "games": 109,
+      "new": false
+     },
+     "term": {
+      "start": 1638,
+      "games": 180,
+      "new": true
+     }
+    }
+   },
+   "blitz": {
+    "current": 1540,
+    "periods": {
+     "week": {
+      "start": 1566,
+      "games": 20,
+      "new": false
+     },
+     "month": {
+      "start": 1566,
+      "games": 20,
+      "new": false
+     },
+     "term": {
+      "start": 1735,
+      "games": 41,
+      "new": true
+     }
+    }
+   }
+  },
+  "beetrootp00": {
+   "rapid": {
+    "current": 1099,
+    "periods": {
+     "week": {
+      "start": 1099,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1099,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1099,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1081,
+    "periods": {
+     "week": {
+      "start": 1081,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1081,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1064,
+      "games": 6,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1117,
+    "periods": {
+     "week": {
+      "start": 1117,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1117,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1117,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "bingu_1": {
+   "rapid": {
+    "current": 369,
+    "periods": {
+     "week": {
+      "start": 410,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "start": 348,
+      "games": 38,
+      "new": false
+     },
+     "term": {
+      "start": 348,
+      "games": 38,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 326,
+    "periods": {
+     "week": {
+      "start": 326,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 326,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 530,
+      "games": 3,
+      "new": true
+     }
+    }
+   }
+  },
+  "catrinwodrich": {
+   "rapid": {
+    "current": 331,
+    "periods": {
+     "week": {
+      "start": 331,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 331,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 331,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "changxin96": {
+   "rapid": {
+    "current": 267,
+    "periods": {
+     "week": {
+      "start": 260,
+      "games": 18,
+      "new": false
+     },
+     "month": {
+      "start": 181,
+      "games": 59,
+      "new": false
+     },
+     "term": {
+      "start": 203,
+      "games": 74,
+      "new": true
+     }
+    }
+   }
+  },
+  "checkmatesam14": {
+   "rapid": {
+    "current": 689,
+    "periods": {
+     "week": {
+      "start": 689,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 689,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 689,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 729,
+    "periods": {
+     "week": {
+      "start": 721,
+      "games": 9,
+      "new": false
+     },
+     "month": {
+      "start": 543,
+      "games": 32,
+      "new": false
+     },
+     "term": {
+      "start": 543,
+      "games": 32,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 712,
+    "periods": {
+     "week": {
+      "start": 583,
+      "games": 90,
+      "new": false
+     },
+     "month": {
+      "start": 631,
+      "games": 123,
+      "new": false
+     },
+     "term": {
+      "start": 663,
+      "games": 139,
+      "new": false
+     }
+    }
+   }
+  },
+  "chesstickles07": {
+   "rapid": {
+    "current": 737,
+    "periods": {
+     "week": {
+      "start": 707,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "start": 704,
+      "games": 15,
+      "new": false
+     },
+     "term": {
+      "start": 764,
+      "games": 33,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 288,
+    "periods": {
+     "week": {
+      "start": 288,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 212,
+      "games": 16,
+      "new": false
+     },
+     "term": {
+      "start": 289,
+      "games": 22,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 442,
+    "periods": {
+     "week": {
+      "start": 468,
+      "games": 27,
+      "new": false
+     },
+     "month": {
+      "start": 296,
+      "games": 175,
+      "new": false
+     },
+     "term": {
+      "start": 457,
+      "games": 195,
+      "new": false
+     }
+    }
+   }
+  },
+  "codymcg": {
+   "rapid": {
+    "current": 904,
+    "periods": {
+     "week": {
+      "start": 891,
+      "games": 3,
+      "new": false
+     },
+     "month": {
+      "start": 902,
+      "games": 4,
+      "new": false
+     },
+     "term": {
+      "start": 892,
+      "games": 5,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 471,
+    "periods": {
+     "week": {
+      "start": 471,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 479,
+      "games": 5,
+      "new": false
+     },
+     "term": {
+      "start": 432,
+      "games": 22,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 266,
+    "periods": {
+     "week": {
+      "start": 266,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 281,
+      "games": 11,
+      "new": false
+     },
+     "term": {
+      "start": 200,
+      "games": 25,
+      "new": false
+     }
+    }
+   }
+  },
+  "dad109": {
+   "rapid": {
+    "current": 1844,
+    "periods": {
+     "week": {
+      "start": 1844,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1844,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1799,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1760,
+    "periods": {
+     "week": {
+      "start": 1770,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 1770,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "start": 1715,
+      "games": 32,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1702,
+    "periods": {
+     "week": {
+      "start": 1702,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1702,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1642,
+      "games": 21,
+      "new": false
+     }
+    }
+   }
+  },
+  "deviprasad11": {
+   "rapid": {
+    "current": 1066,
+    "periods": {
+     "week": {
+      "start": 1066,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1066,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1066,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1335,
+    "periods": {
+     "week": {
+      "start": 1208,
+      "games": 76,
+      "new": false
+     },
+     "month": {
+      "start": 1191,
+      "games": 82,
+      "new": false
+     },
+     "term": {
+      "start": 1191,
+      "games": 91,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1279,
+    "periods": {
+     "week": {
+      "start": 1190,
+      "games": 160,
+      "new": false
+     },
+     "month": {
+      "start": 1124,
+      "games": 660,
+      "new": false
+     },
+     "term": {
+      "start": 1217,
+      "games": 1092,
+      "new": false
+     }
+    }
+   }
+  },
+  "emlowen": {
+   "rapid": {
+    "current": 1135,
+    "periods": {
+     "week": {
+      "start": 1127,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 1126,
+      "games": 7,
+      "new": false
+     },
+     "term": {
+      "start": 1149,
+      "games": 50,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 775,
+    "periods": {
+     "week": {
+      "start": 767,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 790,
+      "games": 72,
+      "new": false
+     },
+     "term": {
+      "start": 736,
+      "games": 100,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 393,
+    "periods": {
+     "week": {
+      "start": 393,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 393,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 393,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "ericwangisbadatchess": {
+   "rapid": {
+    "current": 1603,
+    "periods": {
+     "week": {
+      "start": 1603,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1471,
+      "games": 80,
+      "new": false
+     },
+     "term": {
+      "start": 1388,
+      "games": 146,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1686,
+    "periods": {
+     "week": {
+      "start": 1710,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "start": 1589,
+      "games": 155,
+      "new": false
+     },
+     "term": {
+      "start": 1483,
+      "games": 344,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1640,
+    "periods": {
+     "week": {
+      "start": 1658,
+      "games": 177,
+      "new": false
+     },
+     "month": {
+      "start": 1645,
+      "games": 383,
+      "new": false
+     },
+     "term": {
+      "start": 1484,
+      "games": 660,
+      "new": false
+     }
+    }
+   }
+  },
+  "futuregm99": {
+   "rapid": {
+    "current": 2273,
+    "periods": {
+     "week": {
+      "start": 2263,
+      "games": 8,
+      "new": false
+     },
+     "month": {
+      "start": 2120,
+      "games": 48,
+      "new": false
+     },
+     "term": {
+      "start": 2120,
+      "games": 48,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 2451,
+    "periods": {
+     "week": {
+      "start": 2451,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 2427,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "start": 2396,
+      "games": 2,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 2516,
+    "periods": {
+     "week": {
+      "start": 2516,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 2508,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "start": 2499,
+      "games": 4,
+      "new": false
+     }
+    }
+   }
+  },
+  "gnik_hs": {
+   "rapid": {
+    "current": 567,
+    "periods": {
+     "week": {
+      "start": 567,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 567,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 567,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 990,
+    "periods": {
+     "week": {
+      "start": 982,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 918,
+      "games": 48,
+      "new": false
+     },
+     "term": {
+      "start": 783,
+      "games": 73,
+      "new": false
+     }
+    }
+   }
+  },
+  "hamrhd06": {
+   "rapid": {
+    "current": 1939,
+    "periods": {
+     "week": {
+      "start": 1939,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1825,
+      "games": 44,
+      "new": false
+     },
+     "term": {
+      "start": 1820,
+      "games": 90,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1746,
+    "periods": {
+     "week": {
+      "start": 1692,
+      "games": 73,
+      "new": false
+     },
+     "month": {
+      "start": 1727,
+      "games": 262,
+      "new": false
+     },
+     "term": {
+      "start": 1839,
+      "games": 535,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1621,
+    "periods": {
+     "week": {
+      "start": 1729,
+      "games": 52,
+      "new": false
+     },
+     "month": {
+      "start": 1589,
+      "games": 206,
+      "new": false
+     },
+     "term": {
+      "start": 1604,
+      "games": 455,
+      "new": false
+     }
+    }
+   }
+  },
+  "hansimen_isusingatplug": {
+   "rapid": {
+    "current": 823,
+    "periods": {
+     "week": {
+      "start": 823,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 823,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 823,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 578,
+    "periods": {
+     "week": {
+      "start": 562,
+      "games": 16,
+      "new": false
+     },
+     "month": {
+      "start": 523,
+      "games": 35,
+      "new": false
+     },
+     "term": {
+      "start": 523,
+      "games": 35,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 405,
+    "periods": {
+     "week": {
+      "start": 416,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 458,
+      "games": 6,
+      "new": false
+     },
+     "term": {
+      "start": 385,
+      "games": 20,
+      "new": false
+     }
+    }
+   }
+  },
+  "jinglebagel": {
+   "rapid": {
+    "current": 2101,
+    "periods": {
+     "week": {
+      "start": 2101,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 2101,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 2101,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 2049,
+    "periods": {
+     "week": {
+      "start": 2055,
+      "games": 6,
+      "new": false
+     },
+     "month": {
+      "start": 2019,
+      "games": 33,
+      "new": false
+     },
+     "term": {
+      "start": 2035,
+      "games": 41,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 2046,
+    "periods": {
+     "week": {
+      "start": 2102,
+      "games": 17,
+      "new": false
+     },
+     "month": {
+      "start": 2005,
+      "games": 223,
+      "new": false
+     },
+     "term": {
+      "start": 1980,
+      "games": 323,
+      "new": false
+     }
+    }
+   }
+  },
+  "jujujvz": {
+   "rapid": {
+    "current": 1711,
+    "periods": {
+     "week": {
+      "start": 1675,
+      "games": 73,
+      "new": false
+     },
+     "month": {
+      "start": 1834,
+      "games": 220,
+      "new": false
+     },
+     "term": {
+      "start": 1658,
+      "games": 527,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1237,
+    "periods": {
+     "week": {
+      "start": 1237,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1260,
+      "games": 5,
+      "new": false
+     },
+     "term": {
+      "start": 1244,
+      "games": 12,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1022,
+    "periods": {
+     "week": {
+      "start": 993,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "start": 1007,
+      "games": 3,
+      "new": false
+     },
+     "term": {
+      "start": 994,
+      "games": 6,
+      "new": false
+     }
+    }
+   }
+  },
+  "leo_coyle": {
+   "rapid": {
+    "current": 1086,
+    "periods": {
+     "week": {
+      "start": 1049,
+      "games": 13,
+      "new": false
+     },
+     "month": {
+      "start": 926,
+      "games": 22,
+      "new": false
+     },
+     "term": {
+      "start": 959,
+      "games": 25,
+      "new": true
+     }
+    }
+   },
+   "blitz": {
+    "current": 803,
+    "periods": {
+     "week": {
+      "start": 803,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 898,
+      "games": 17,
+      "new": false
+     },
+     "term": {
+      "start": 898,
+      "games": 18,
+      "new": true
+     }
+    }
+   },
+   "bullet": {
+    "current": 701,
+    "periods": {
+     "week": {
+      "start": 701,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 701,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 676,
+      "games": 3,
+      "new": true
+     }
+    }
+   }
+  },
+  "leraiog": {
+   "rapid": {
+    "current": 1057,
+    "periods": {
+     "week": {
+      "start": 1057,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1049,
+      "games": 24,
+      "new": false
+     },
+     "term": {
+      "start": 1078,
+      "games": 30,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 642,
+    "periods": {
+     "week": {
+      "start": 642,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 648,
+      "games": 4,
+      "new": false
+     },
+     "term": {
+      "start": 723,
+      "games": 10,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 800,
+    "periods": {
+     "week": {
+      "start": 800,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 800,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 762,
+      "games": 3,
+      "new": false
+     }
+    }
+   }
+  },
+  "lucachinno32": {
+   "rapid": {
+    "current": 1584,
+    "periods": {
+     "week": {
+      "start": 1601,
+      "games": 28,
+      "new": false
+     },
+     "month": {
+      "start": 1546,
+      "games": 248,
+      "new": false
+     },
+     "term": {
+      "start": 1476,
+      "games": 488,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1097,
+    "periods": {
+     "week": {
+      "start": 1090,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 1093,
+      "games": 12,
+      "new": false
+     },
+     "term": {
+      "start": 782,
+      "games": 88,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 799,
+    "periods": {
+     "week": {
+      "start": 799,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 799,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 802,
+      "games": 19,
+      "new": false
+     }
+    }
+   }
+  },
+  "marchess64": {
+   "rapid": {
+    "current": 2159,
+    "periods": {
+     "week": {
+      "start": 2131,
+      "games": 9,
+      "new": false
+     },
+     "month": {
+      "start": 2148,
+      "games": 16,
+      "new": false
+     },
+     "term": {
+      "start": 2148,
+      "games": 16,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1923,
+    "periods": {
+     "week": {
+      "start": 1909,
+      "games": 6,
+      "new": false
+     },
+     "month": {
+      "start": 1934,
+      "games": 50,
+      "new": false
+     },
+     "term": {
+      "start": 1988,
+      "games": 82,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1975,
+    "periods": {
+     "week": {
+      "start": 1991,
+      "games": 4,
+      "new": false
+     },
+     "month": {
+      "start": 1963,
+      "games": 71,
+      "new": false
+     },
+     "term": {
+      "start": 2039,
+      "games": 196,
+      "new": false
+     }
+    }
+   }
+  },
+  "medievaltwo": {
+   "rapid": {
+    "current": 1431,
+    "periods": {
+     "week": {
+      "start": 1431,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1431,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1431,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1163,
+    "periods": {
+     "week": {
+      "start": 1111,
+      "games": 20,
+      "new": false
+     },
+     "month": {
+      "start": 1086,
+      "games": 37,
+      "new": false
+     },
+     "term": {
+      "start": 1090,
+      "games": 47,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 786,
+    "periods": {
+     "week": {
+      "start": 786,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 752,
+      "games": 1,
+      "new": false
+     },
+     "term": {
+      "start": 752,
+      "games": 1,
+      "new": false
+     }
+    }
+   }
+  },
+  "michaelon_chess": {
+   "rapid": {
+    "current": 1100,
+    "periods": {
+     "week": {
+      "start": 1071,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "start": 1071,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "start": 1057,
+      "games": 5,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1409,
+    "periods": {
+     "week": {
+      "start": 1378,
+      "games": 58,
+      "new": false
+     },
+     "month": {
+      "start": 1404,
+      "games": 244,
+      "new": false
+     },
+     "term": {
+      "start": 1273,
+      "games": 738,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1512,
+    "periods": {
+     "week": {
+      "start": 1399,
+      "games": 21,
+      "new": false
+     },
+     "month": {
+      "start": 1399,
+      "games": 21,
+      "new": false
+     },
+     "term": {
+      "start": 1374,
+      "games": 34,
+      "new": false
+     }
+    }
+   }
+  },
+  "milena373": {
+   "rapid": {
+    "current": 1842,
+    "periods": {
+     "week": {
+      "start": 1842,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1842,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1842,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1900,
+    "periods": {
+     "week": {
+      "start": 1915,
+      "games": 13,
+      "new": false
+     },
+     "month": {
+      "start": 1887,
+      "games": 33,
+      "new": false
+     },
+     "term": {
+      "start": 1812,
+      "games": 103,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1803,
+    "periods": {
+     "week": {
+      "start": 1829,
+      "games": 5,
+      "new": false
+     },
+     "month": {
+      "start": 1805,
+      "games": 92,
+      "new": false
+     },
+     "term": {
+      "start": 1794,
+      "games": 274,
+      "new": false
+     }
+    }
+   }
+  },
+  "mylesmcmanusrk": {
+   "rapid": {
+    "current": 1691,
+    "periods": {
+     "week": {
+      "start": 1706,
+      "games": 4,
+      "new": false
+     },
+     "month": {
+      "start": 1650,
+      "games": 23,
+      "new": true
+     },
+     "term": {
+      "start": 1650,
+      "games": 23,
+      "new": true
+     }
+    }
+   },
+   "blitz": {
+    "current": 1142,
+    "periods": {
+     "week": {
+      "start": 1245,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 1528,
+      "games": 3,
+      "new": true
+     },
+     "term": {
+      "start": 1528,
+      "games": 3,
+      "new": true
+     }
+    }
+   },
+   "bullet": {
+    "current": 1514,
+    "periods": {
+     "week": {
+      "start": 1537,
+      "games": 1,
+      "new": false
+     },
+     "month": {
+      "start": 1973,
+      "games": 16,
+      "new": true
+     },
+     "term": {
+      "start": 1973,
+      "games": 16,
+      "new": true
+     }
+    }
+   }
+  },
+  "niallfitzgerald1": {
+   "rapid": {
+    "current": 1511,
+    "periods": {
+     "week": {
+      "start": 1511,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1511,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1511,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1786,
+    "periods": {
+     "week": {
+      "start": 1786,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1718,
+      "games": 58,
+      "new": false
+     },
+     "term": {
+      "start": 1495,
+      "games": 149,
+      "new": false
+     }
+    }
+   }
+  },
+  "nuqmanzul": {
+   "rapid": {
+    "current": 1976,
+    "periods": {
+     "week": {
+      "start": 1976,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1976,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1976,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1855,
+    "periods": {
+     "week": {
+      "start": 1855,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1855,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1856,
+      "games": 2,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1571,
+    "periods": {
+     "week": {
+      "start": 1571,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1571,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1571,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "quasimodos-self-hate": {
+   "rapid": {
+    "current": 779,
+    "periods": {
+     "week": {
+      "start": 787,
+      "games": 3,
+      "new": false
+     },
+     "month": {
+      "start": 779,
+      "games": 38,
+      "new": false
+     },
+     "term": {
+      "start": 810,
+      "games": 52,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 400,
+    "periods": {
+     "week": {
+      "start": 400,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 475,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "start": 596,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 486,
+    "periods": {
+     "week": {
+      "start": 486,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 486,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 568,
+      "games": 1,
+      "new": false
+     }
+    }
+   }
+  },
+  "rc2903": {
+   "rapid": {
+    "current": 1499,
+    "periods": {
+     "week": {
+      "start": 1499,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1423,
+      "games": 14,
+      "new": false
+     },
+     "term": {
+      "start": 1446,
+      "games": 21,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1007,
+    "periods": {
+     "week": {
+      "start": 1007,
+      "games": 4,
+      "new": false
+     },
+     "month": {
+      "start": 1085,
+      "games": 8,
+      "new": false
+     },
+     "term": {
+      "start": 1106,
+      "games": 9,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1160,
+    "periods": {
+     "week": {
+      "start": 1178,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "start": 1144,
+      "games": 9,
+      "new": false
+     },
+     "term": {
+      "start": 1154,
+      "games": 28,
+      "new": false
+     }
+    }
+   }
+  },
+  "shcannyy": {
+   "rapid": {
+    "current": 2081,
+    "periods": {
+     "week": {
+      "start": 2081,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1984,
+      "games": 14,
+      "new": false
+     },
+     "term": {
+      "start": 1984,
+      "games": 14,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1520,
+    "periods": {
+     "week": {
+      "start": 1520,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1551,
+      "games": 2,
+      "new": false
+     },
+     "term": {
+      "start": 1551,
+      "games": 2,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 1143,
+    "periods": {
+     "week": {
+      "start": 1143,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1195,
+      "games": 7,
+      "new": false
+     },
+     "term": {
+      "start": 1195,
+      "games": 7,
+      "new": false
+     }
+    }
+   }
+  },
+  "shimmy-steel": {
+   "rapid": {
+    "current": 1407,
+    "periods": {
+     "week": {
+      "start": 1407,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1394,
+      "games": 4,
+      "new": false
+     },
+     "term": {
+      "start": 1401,
+      "games": 7,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 1229,
+    "periods": {
+     "week": {
+      "start": 1229,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 1229,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 1229,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 705,
+    "periods": {
+     "week": {
+      "start": 705,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 705,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 705,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  },
+  "therealreggie10": {
+   "rapid": {
+    "current": 120,
+    "periods": {
+     "week": {
+      "start": 125,
+      "games": 2,
+      "new": false
+     },
+     "month": {
+      "start": 157,
+      "games": 6,
+      "new": false
+     },
+     "term": {
+      "start": 157,
+      "games": 6,
+      "new": false
+     }
+    }
+   },
+   "blitz": {
+    "current": 100,
+    "periods": {
+     "week": {
+      "start": 100,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 100,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 100,
+      "games": 0,
+      "new": false
+     }
+    }
+   },
+   "bullet": {
+    "current": 100,
+    "periods": {
+     "week": {
+      "start": 100,
+      "games": 0,
+      "new": false
+     },
+     "month": {
+      "start": 100,
+      "games": 0,
+      "new": false
+     },
+     "term": {
+      "start": 100,
+      "games": 0,
+      "new": false
+     }
+    }
+   }
+  }
+ }
+}
